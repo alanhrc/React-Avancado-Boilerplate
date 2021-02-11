@@ -1,10 +1,12 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/ban-types */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Plugin, NewPlugin } from 'pretty-format'
 
 declare global {
   namespace jest {
     interface AsymmetricMatcher {
       $$typeof: symbol
-      // eslint-disable-next-line @typescript-eslint/ban-types
       sample?: string | RegExp | object | Array<any> | Function
     }
 
