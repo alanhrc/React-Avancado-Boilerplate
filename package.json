@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Alan Henrique"
+    "name": "Alan Henrique",
+    "email": "alancamargo50@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
